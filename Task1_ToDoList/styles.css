@@ -1,0 +1,60 @@
+/* General styles */
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+.header {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 50%;
+}
+
+/* Input styling */
+input {
+  width: 70%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Add button styling */
+.addBtn {
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.addBtn:hover {
+  background: #ff5277;
+}
+
+/* List styling */
+ul {
+  margin: 20px auto;
+  width: 50%;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px;
+  background: #ffdee9;
+  font-size: 18px;
+  transition: 0.2s;
+  border-radius: 5px
+}
+
+.checked {
+  text-decoration: line-through;
+}
